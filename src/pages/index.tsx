@@ -27,11 +27,6 @@ const Home = () => {
             "5",
             "10"
           ]}
-          wrap={[
-            'wrap',
-            'wrap',
-            'nowrap'
-          ]}
         >
           <Stack
             flexDirection="column"
@@ -55,11 +50,7 @@ const Home = () => {
             >Chegou a hora de tirar do papel a viagem que você sempre sonhou. </Text>
           </Stack >
           <Image
-            display={[
-              'none',
-              'none',
-              'block'
-            ]}
+            display={{ base: 'none', md: "block" }}
             alignSelf="flex-end"
             w='417px'
             h='271px'
