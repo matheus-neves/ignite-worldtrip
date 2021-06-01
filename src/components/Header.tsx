@@ -1,12 +1,10 @@
 import { Flex } from "@chakra-ui/layout";
 import { BsChevronLeft } from 'react-icons/bs'
-import { useTheme } from "@chakra-ui/react"
 import { useRouter } from "next/dist/client/router";
 import Link from 'next/link'
 
 const Header = () => {
   const router = useRouter()
-  const theme = useTheme()
   return (
     <Flex
       alignItems='center'
@@ -17,10 +15,10 @@ const Header = () => {
       py="7"
     >
       {
-        router.pathname === '/' && (
+        router.pathname !== '/' && (
           <Link href="/">
             <a href="/">
-              <BsChevronLeft size={24} color={theme.colors.gray[800]} />
+              <BsChevronLeft size={24} color="gray.800" />
             </a>
           </Link>
         )
