@@ -1,37 +1,32 @@
 import { Image } from "@chakra-ui/image"
 import { Box, Flex, Stack, Text } from "@chakra-ui/layout"
+import Container from "../containers/Container"
 
 export function Banner() {
   return (
     <Box
       as="section"
       w='100%'
-      h='335px'
+      h={['163px', '335px']}
       backgroundImage="url('/images/banner/bg.jpg')"
       backgroundPosition="center"
       backgroundSize="cover"
       backgroundRepeat="no-repeat"
     >
-      <Flex
+      <Container
         justifyContent="space-between"
         alignItems='center'
-        maxWidth='1240px'
-        h='335px'
-        mx="auto"
-        p={[
-          "5",
-          "10"
-        ]}
+        h={['163px', '335px']}
       >
         <Stack
           flexDirection="column"
-          spacing="5"
+          spacing={["2", "5"]}
           maxWidth="550px"
           pr="5"
         >
           <Text
             as="strong"
-            fontSize="4xl"
+            fontSize={["xl", "4xl"]}
             color="gray.50"
             fontWeight="normal"
           >
@@ -39,7 +34,7 @@ export function Banner() {
               infinitas possibilidades.
             </Text>
           <Text
-            fontSize="xl"
+            fontSize={["sm", "xl"]}
             color="gray.100"
             fontWeight="normal"
           >Chegou a hora de tirar do papel a viagem que você sempre sonhou. </Text>
@@ -53,7 +48,7 @@ export function Banner() {
           top="20"
           src="/images/banner/airplane.png"
           alt="Avião" />
-      </Flex>
+      </Container>
     </Box>
   )
 }
