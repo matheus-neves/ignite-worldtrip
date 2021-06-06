@@ -1,7 +1,10 @@
-import { Flex } from "@chakra-ui/layout"
+import { Divider, Flex } from "@chakra-ui/layout"
 import Head from "next/head"
 import { Banner } from "../components/Banner"
 import Header from "../components/Header"
+import Slider from "../components/Slider"
+import TravelTypes from "../components/TravelTypes"
+
 
 const Home = () => {
   return (
@@ -9,7 +12,9 @@ const Home = () => {
       <Head> <title>Worldtrip | Home</title> </Head>
       <Header />
       <Banner />
-    </Flex>
+      <TravelTypes />
+      <Divider background="gray.800" pt="2px" w="90px" mx="auto" mt="20px" />
+    </Flex >
   )
 }
 
