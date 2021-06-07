@@ -9,10 +9,7 @@ const Container = ({ children, ...rest }: ContainerProps) => (
     maxWidth='1240px'
     w='100%'
     mx="auto"
-    p={[
-      "5",
-      "10"
-    ]}
+    p={{ base: '5', md: '10' }}
     {...rest}
   >
     {children}
