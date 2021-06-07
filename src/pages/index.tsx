@@ -14,6 +14,7 @@ const Home = () => {
       <Banner />
       <TravelTypes />
       <Divider background="gray.800" pt="2px" w="90px" mx="auto" mt="20px" />
+      <Slider />
     </Flex >
   )
 }
