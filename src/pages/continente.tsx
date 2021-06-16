@@ -1,9 +1,11 @@
-import { Box, Flex, Text } from "@chakra-ui/layout"
+import { Box, Flex, Text, SimpleGrid } from "@chakra-ui/layout"
 import Head from "next/head"
 import Header from "../components/Header"
 import Container from "../containers/Container"
 import { AiOutlineInfoCircle } from 'react-icons/ai'
-import { Tooltip } from "@chakra-ui/react"
+import { Tooltip, Image, Stack } from "@chakra-ui/react"
+
+import City from '../components/City';
 
 const Continent = () => {
   return (
@@ -12,7 +14,6 @@ const Continent = () => {
       <Header />
       <Box
         w='100%'
-        h={['150px', '500px']}
         backgroundImage="url('/images/banner/europe-bg.png')"
         backgroundPosition="center"
         backgroundSize="cover"
@@ -21,7 +22,7 @@ const Continent = () => {
         <Container
           alignItems={["center", "flex-end"]}
           justifyContent={["center", "flex-start"]}
-          h="100%"
+          height={['150px', '500px']}
         >
           <Text
             fontSize={["28px", "5xl"]}
@@ -30,7 +31,6 @@ const Continent = () => {
           >Europe</Text>
         </Container>
       </Box>
-
       <Container
         alignItems={{ base: "flex-start", xl: "center" }}
         justify="space-between"
@@ -117,6 +117,27 @@ const Continent = () => {
           </Flex>
         </Flex>
       </Container>
+
+      <Container direction="column">
+
+        <Text
+          as="h2"
+          fontSize={["2xl", "4xl"]}
+          color="gray.800"
+          fontWeight="500"
+          mb="8"
+        >Cidades +100</Text>
+
+        <SimpleGrid columns={{ base: 1, md: 4 }} spacing={['20px', '40px']} minChildWidth="256px">
+          <City city="Londres" citySrc="/images/cities/londres.png" country="Reino Unido" flagSrc="/images/cities/uk-flag.png" />
+          <City city="Paris" citySrc="/images/cities/paris.png" country="França" flagSrc="/images/cities/franca-flag.png" />
+          <City city="Roma" citySrc="/images/cities/roma.png" country="Itália" flagSrc="/images/cities/italia-flag.png" />
+          <City city="Praga" citySrc="/images/cities/praga.png" country="República Tcheca" flagSrc="/images/cities/republica-tcheca-flag.png" />
+          <City city="Amsterdã" citySrc="/images/cities/amsterda.png" country="Holanda" flagSrc="/images/cities/holanda-flag.png" />
+        </SimpleGrid >
+
+      </Container>
+
     </Flex >
   )
 }
