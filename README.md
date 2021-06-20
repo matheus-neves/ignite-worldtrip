@@ -1,34 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img alt="Ignite" src=".github/header.png" />
 
-## Getting Started
+<h3 align="center">
+  Challenge: Worldtrip
+</h3>
 
-First, run the development server:
+<p align="center">
+  <a href="https://github.com/matheus-neves">
+    <img alt="Author Matheus Neves" src="https://img.shields.io/badge/author-Matheus%20Neves-%2306b656?color=06b656&style=for-the-badge">
+  </a>
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/matheus-neves/ignite-worldtrip?color=06b656&style=for-the-badge">
+  <a href="https://github.com/matheus-neves/ignite-worldtrip/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/matheus-neves/ignite-worldtrip?color=06b656&style=for-the-badge">
+  </a>
+  <a href="https://github.com/matheus-neves/ignite-worldtrip/blob/main/LICENSE">
+    <img alt="License MIT" src="https://img.shields.io/badge/license-MIT-%2304D361?color=06b656&style=for-the-badge">
+  </a>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<p align="center">
+  <a href="#rocket-about-the-challenge">About the Challenge</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#installation">Installation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br/>
+<p align="center"><img  src=".github/demo.gif"/></p>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## :rocket: About the Challenge
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+The challenge is to put into practice the use of the Chakra UI.
 
-## Learn More
+## Technologies
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js](https://nextjs.org/)
+- [Chakra UI](https://chakra-ui.com/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Swiperjs](https://swiperjs.com/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Clone the repository: `git@github.com:matheus-neves/ignite-worldtrip.git`
+2. Access the directory: `cd ignite-worldtrip`
+3. Install the dependencies: `yarn`
+4. Run the app: `yarn dev`
 
-## Deploy on Vercel
+## :memo: License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This challenge is under license from MIT. See the archive [LICENSE](https://github.com/matheus-neves/ignite-worldtrip/blob/main/LICENSE) for more details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+<p>Challenge completed :heavy_check_mark:</p>
+
+Made with 💜 by Matheus Neves [See my linkedin!](https://www.linkedin.com/in/matheus-neves-front-end/) :wave:
