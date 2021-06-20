@@ -28,7 +28,7 @@ const Continent = () => {
             fontSize={["28px", "5xl"]}
             color="gray.50"
             fontWeight="600"
-          >Europe</Text>
+          >Europa</Text>
         </Container>
       </Box>
       <Container
